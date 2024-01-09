@@ -1,0 +1,39 @@
+/* common shared styles */
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    margin: 50px 140px 0px 140px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+}
+.banner{
+    border-radius: 16px;
+    padding: 177px 344px 177px 344px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+#banner-greeting{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+
+}
+
