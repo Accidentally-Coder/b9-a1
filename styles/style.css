@@ -19,6 +19,7 @@ header{
     border-radius: 16px;
     padding: 177px 344px 177px 344px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-size: cover;
 }
 #banner-greeting{
     color: #FFF;
@@ -37,6 +38,34 @@ header{
     font-weight: 900;
     line-height: 95px; /* 131.944% */
 
+}
+
+/* main section */
+main{
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.party-welcome{
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+.item{
+    width: 424px;
+height: 450px;
+flex-shrink: 0;
+}
+.item:hover,button:hover{
+    transform: scale(0.9);
 }
 
 /* footer section */
