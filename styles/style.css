@@ -3,8 +3,10 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
+/* header section */
 header{
     margin: 50px 140px 0px 140px;
     width: 1320px;
@@ -37,3 +39,27 @@ header{
 
 }
 
+/* footer section */
+footer{
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+hr{
+    margin-left: 140px;
+    margin-right: 140px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px;
+}
+
+.footer-icon{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
